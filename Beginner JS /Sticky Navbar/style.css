@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  margin-top: 0px;
+  display: flex;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar.active {
+  background-color: black;
+}
+
+.navbar.active ul li a {
+  color: white;
+}
+
+.top-container {
+  background-color: green;
+  margin: 10px 0px;
+}

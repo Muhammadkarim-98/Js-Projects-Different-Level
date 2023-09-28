@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+
+    <title>menu bar</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <ul class="social">
+                <li><a href="" class="fb">Facebook</a></li>
+                <li><a href="" class="tw">Twitter</a></li>
+            </ul>
+        </nav>
+
+        <div style="margin: 20px">
+            <span>Layout: <span><a href="#" class="stack">Stack</a></span>
+            <span><a href="#" class="grid">Grid</a></span>
+        </div>
+
+        <div id="blocks">
+            <article>
+                <h2>i pity food</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cupiditate doloribus earum quis omnis id, veritatis voluptas. Esse repudiandae atque optio minus incidunt error, sequi vero excepturi porro? Reiciendis velit, perspiciatis, quisquam fugiat,
+                    nemo debitis alias corrupti fuga ipsa temporibus numquam? Corporis accusantium delectus at inventore eum! Tenetur, quam provident?
+                </p>
+            </article>
+            <article>
+                <h2>i pity food</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cupiditate doloribus earum quis omnis id, veritatis voluptas. Esse repudiandae atque optio minus incidunt error, sequi vero excepturi porro? Reiciendis velit, perspiciatis, quisquam fugiat,
+                    nemo debitis alias corrupti fuga ipsa temporibus numquam? Corporis accusantium delectus at inventore eum! Tenetur, quam provident?
+                </p>
+            </article>
+            <article>
+                <h2>i pity food</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cupiditate doloribus earum quis omnis id, veritatis voluptas. Esse repudiandae atque optio minus incidunt error, sequi vero excepturi porro? Reiciendis velit, perspiciatis, quisquam fugiat,
+                    nemo debitis alias corrupti fuga ipsa temporibus numquam? Corporis accusantium delectus at inventore eum! Tenetur, quam provident?
+                </p>
+            </article>
+            <article>
+                <h2>i pity food</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cupiditate doloribus earum quis omnis id, veritatis voluptas. Esse repudiandae atque optio minus incidunt error, sequi vero excepturi porro? Reiciendis velit, perspiciatis, quisquam fugiat,
+                    nemo debitis alias corrupti fuga ipsa temporibus numquam? Corporis accusantium delectus at inventore eum! Tenetur, quam provident?
+                </p>
+            </article>
+            <article>
+                <h2>i pity food</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cupiditate doloribus earum quis omnis id, veritatis voluptas. Esse repudiandae atque optio minus incidunt error, sequi vero excepturi porro? Reiciendis velit, perspiciatis, quisquam fugiat,
+                    nemo debitis alias corrupti fuga ipsa temporibus numquam? Corporis accusantium delectus at inventore eum! Tenetur, quam provident?
+                </p>
+            </article>
+            <article>
+                <h2>i pity food</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cupiditate doloribus earum quis omnis id, veritatis voluptas. Esse repudiandae atque optio minus incidunt error, sequi vero excepturi porro? Reiciendis velit, perspiciatis, quisquam fugiat,
+                    nemo debitis alias corrupti fuga ipsa temporibus numquam? Corporis accusantium delectus at inventore eum! Tenetur, quam provident?
+                </p>
+            </article>
+        </div>
+    </div>
+    <script>
+        $("a.stack").on("click", function() {
+            $("article").addClass("stack")
+        });
+        $("a.grid").on("click", function() {
+            $("article").removeClass("stack")
+        })
+    </script>
+</body>
+
+</html>
