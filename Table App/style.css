@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+th {
+  border: 3px solid black;
+  margin: 3px;
+}
+
+td {
+  border: 1px solid green;
+}
