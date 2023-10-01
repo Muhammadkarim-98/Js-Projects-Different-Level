@@ -6,9 +6,9 @@ const rContainer = document.querySelector('.row-container');
 const rowContainer = `<tr class="row-container">
           <td><input type="text" class="inp" /></td>
           <td><input type="text" class="inp" /></td>
+          <td><input type="email" class="inp" /></td>
           <td><input type="text" class="inp" /></td>
-          <td><input type="text" class="inp" /></td>
-          <td><input type="text" class="inp" /></td>
+          <td><input type="number" class="inp" /></td>
 </tr>`;
 
 tableBody.innerHTML = rowContainer;
